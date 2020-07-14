@@ -1,0 +1,77 @@
+
+/* body will apply for whole body in the html sheet*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1cm;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader {
+    background: #333;
+    color: white;
+}
+    
+#mainNav{
+    background: #cccccc;
+    color: black;
+} 
+
+#mainNav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#mainNav li {
+    display: inline;
+    padding: 5px 20px;
+}
+
+#mainNav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#mainNav li:hover {         /* hover is like light presentation when we click on li */
+    background: #aaaaaa;
+}
+
+#jumbo {
+    background-image: url(../cssnautic/2157.png);
+    background-position: center center;
+    min-height: 200px;
+    text-align: center;
+    
+}
+
+#jumbo h1 {
+    color: cyan;
+    font-size: 45px;
+    padding: 15px 5px;
+    line-height: 1cm;
+    background-color: #254b6f;
+}
+
+  p{
+    border-top: 5px solid blue;
+    border-left: 2px dashed violet;
+    border-right: 2px dashed violet;
+    border-bottom: 5px dotted black;
+    border: 3px solid green;
+  
+  /*padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px; */
+    padding: 10px 20px 10px 20px;  /* padding means space betwwn para and border */
+  /*padding: 20px;      means 20px in all dimension*/  
+
+    margin: 40px 30px 40px 30px;
+} 
